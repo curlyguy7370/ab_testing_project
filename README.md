@@ -1,20 +1,14 @@
 # ab_testing_project
 A/B testing analysis on e-commerce KPIs with Python, Excel &amp; Tableau — real B2B marketing project.
 
-
-## A/B Testing on Marketing Performance KPIs
-
-This repository showcases an A/B testing project I conducted during an internship at a B2B digital-marketing company that supports retailers in optimizing their online performance.
-
-The goal of the analysis was to evaluate key performance indicators, such as Conversion Rate.
-
 # 🧪 A/B Testing of E-commerce KPIs
 
 ## 📋 Project Overview
 This project analyzes the results of **A/B testing experiments** to evaluate key **e-commerce KPIs** such as **Conversion Rate**, **ROAS (Return on Advertising Spend)**, **Return Rate**, **Orders from Repeat Customers**, and **Margin**.
 
 It was carried out as part of my work for a **B2B company** in the **e-commerce industry**, which supports retailers in managing their **online stores** and **marketing channels**.  
-The objective was to assess the effectiveness of marketing and design interventions through data-driven testing and provide **actionable insights** to improve business performance.
+
+The project was designed to perform a year-over-year (2025 vs 2024) performance comparison for each client, using A/B testing and visualization techniques to uncover temporal changes in KPIs and provide **actionable insights** to improve business performance.
 
 ---
 
