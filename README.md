@@ -35,15 +35,16 @@ The dataset used in this project is provided as:
 
 **`ab_test.csv`**
 
-It was derived from **Shopify reports** exported from client accounts managed by the company.  
-The data represents aggregated performance results before and after specific interventions, anonymized for confidentiality.  
-This dataset forms the analytical foundation of the **A/B testing** conducted in the accompanying Jupyter notebook.
+It was derived from Shopify reports exported from client accounts managed by the company.
+The data is organized year over year, containing aggregated KPI values for each client across 2024 and 2025, allowing for temporal comparison of performance.
+The dataset serves as the analytical foundation for the A/B testing and visualization conducted.
+Client names, financial figures, and other sensitive information have been modified to ensure confidentiality.
 
 ---
 
 ## 📊 Visualizations
 The analytical results were transformed into **interactive visual dashboards** using **Tableau** to enhance interpretability and storytelling.  
-These dashboards provide a visual comparison between control and test groups across key KPIs, helping identify which marketing and design interventions had the strongest effects.
+These dashboards provide a visual comparison of each client’s performance over time, highlighting whether KPIs increased or decreased
 
 🔗 **View the dashboards here:**  
 [Tableau Public — A/B Test KPI Dashboard](https://public.tableau.com/app/profile/riccardo.conti)
@@ -51,9 +52,7 @@ These dashboards provide a visual comparison between control and test groups acr
 ---
 
 ## 🧠 Interpretation and Key Findings
-- The A/B test revealed **statistically significant improvements** in conversion rate and repeat purchase share for several client interventions.  
-- Results for **ROAS** and **Margin** varied depending on campaign and audience, highlighting the importance of multi-metric evaluation.  
-- The analysis emphasized that **continuous testing and iteration** are essential for maximizing ROI in e-commerce.  
+  
 - Findings were used to propose **strategic recommendations**, including:  
   - Reallocating marketing budgets toward top-performing channels.  
   - Refining campaign timing and creative assets.  
