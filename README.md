@@ -4,11 +4,11 @@ A/B testing analysis on e-commerce KPIs with Python, Excel &amp; Tableau — rea
 # 🧪 A/B Testing of E-commerce KPIs
 
 ## 📋 Project Overview
-This project analyzes the results of **A/B testing experiments** to evaluate key **e-commerce KPIs** such as **Conversion Rate**, **ROAS (Return on Advertising Spend)**, **Return Rate**, **Orders from Repeat Customers**, and **Margin**.
+This project analyzes the results of **A/B testing experiments** to study **e-commerce KPIs** such as **Conversion Rate**.
 
 It was carried out as part of my work for a **B2B company** in the **e-commerce industry**, which supports retailers in managing their **online stores** and **marketing channels**.  
 
-The project was designed to perform a year-over-year (2025 vs 2024) performance comparison for each client, using A/B testing and visualization techniques to uncover temporal changes in KPIs and provide **actionable insights** to improve business performance.
+The project was designed to perform a year-over-year (2025 vs 2024) performance comparison for each client, using A/B testing and visualization techniques to uncover temporal changes in clients' KPIs and provide **actionable insights** to improve business performance.
 
 ---
 
