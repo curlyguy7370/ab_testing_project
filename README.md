@@ -19,8 +19,7 @@ The project was designed to perform a year-over-year (2025 vs 2024) performance 
    - Normalized metrics and structured them for hypothesis testing.
 
 2. **A/B Testing & Statistical Analysis**  
-   - Performed **hypothesis testing** to check whether observed KPI differences were statistically significant.  
-   - Used **t-tests** for comparing continuous KPIs (e.g., conversion rate, ROAS, margin).  
+   - Performed proportion tests
    - Analyzed **p-values** to confirm or reject null hypotheses (significance threshold: α = 0.05).  
    - Summarized results in structured outputs highlighting which metrics significantly improved in the test variant.
 
@@ -52,8 +51,18 @@ These dashboards provide a visual comparison of each client’s performance over
 ---
 
 ## 🧠 Interpretation and Key Findings
-  
-- Findings were used to propose **strategic recommendations**, including:  
+Before performing the tests, null and alternative hypotheses (that is, the assumptions underlying our analysis) were defined as follows:
+- Null hypothesis (H₀): there is no difference between the groups.
+- Alternative hypothesis (H₁): a difference exists.
+
+The final DataFrame displays, for each test, a column called **“reject_null”**,
+containing the results in terms of whether or not the null hypothesis is rejected, expressed as a boolean variable:
+- **True** when H₀ is rejected;
+- **False** when H₀ is not rejected.
+
+An example of the final DataFrame, specifically for the conversion rate (CR), is available in the project’s accompanying Jupyter Notebook (.ipynb) file, which also shows that test results indicate a significant decrease in the conversion rate for the following clients: Komodo, Campari90, and Old Angel.
+
+Findings were used to propose **strategic recommendations**, including:  
   - Reallocating marketing budgets toward top-performing channels.  
   - Refining campaign timing and creative assets.  
   - Integrating A/B testing insights into ongoing optimization cycles.
