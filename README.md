@@ -60,7 +60,8 @@ containing the results in terms of whether or not the null hypothesis is rejecte
 - **True** when H₀ is rejected;
 - **False** when H₀ is not rejected.
 
-An example of the final DataFrame, specifically for the conversion rate (CR), is available in the project’s accompanying Jupyter Notebook (.ipynb) file, which also shows that test results indicate a significant decrease in the conversion rate for the following clients: Komodo, Campari90, and Old Angel.
+An example of the final DataFrame, specifically for the conversion rate (CR), is available in the project’s accompanying Jupyter Notebook (.ipynb) file, which also shows that test results indicate a significant change in the conversion rate for the clients Komodo, Campari90 and Old Angel, and therefore, by observing the following table, a significant decrease in conversion rate for these 3 clients:
+![CR_results_visualizations.jpg](CR_results_visualizations.jpg)
 
 Findings were used to propose **strategic recommendations**, including:  
   - Reallocating marketing budgets toward top-performing channels.  
