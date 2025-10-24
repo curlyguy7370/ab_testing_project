@@ -63,7 +63,10 @@ containing the results in terms of whether or not the null hypothesis is rejecte
 An example of the final DataFrame, specifically for the conversion rate (CR), is available in the project’s accompanying Jupyter Notebook (.ipynb) file, which also shows that test results indicate a significant change in the conversion rate for the clients Komodo, Campari90 and Old Angel, and therefore, by observing the following table, a significant decrease in conversion rate for these 3 clients:
 ![CR_results_visualizations.jpg](CR_results_visualizations.jpg)
 
-Findings were used to propose **strategic recommendations**, including:  
+All these 3 clients represent priority cases for corrective action, as their results indicate underlying issues in marketing or website performance that require intervention.
+In fact, even though OldAngel shows an increase in both the number of sessions and the number of orders, demonstrating a generally positive performance trend, it should also be treated with attention. Its conversion rate decreases because the growth in sessions outpaces the growth in orders. While this still reflects overall business growth, it also reveals untapped potential: the company should work to capitalize on these additional visitors, as they may represent new market segments or emerging opportunities yet to be fully leveraged.
+
+Findings were used to propose **strategic recommendations** for these clients, including:  
   - Reallocating marketing budgets toward top-performing channels.  
   - Refining campaign timing and creative assets.  
   - Integrating A/B testing insights into ongoing optimization cycles.
